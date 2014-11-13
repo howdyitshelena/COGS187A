@@ -65,6 +65,9 @@ li.current-page a {
 #main p {
 	font-family: 'Source Sans Pro', sans-serif;
 }
+#main img.half-of-page {
+	width: 49%;
+}
 footer {
 	position: fixed;
 	bottom: 0;
