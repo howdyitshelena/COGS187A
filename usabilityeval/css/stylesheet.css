@@ -3,6 +3,9 @@ html {
 	font-family: 'News Cycle', sans-serif;
 	font-family: 'Montserrat', sans-serif;
 }
+#wrapper {
+	min-height: 100%;
+}
 body {
 	width: 80%;
 	margin-left: auto;
