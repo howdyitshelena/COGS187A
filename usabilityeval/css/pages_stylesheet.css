@@ -15,6 +15,7 @@ a:active { color: white;}  /* selected link */
 	overflow: hidden;
 }
 #sidenav {
+	position: fixed;
 	background-color: #9DCDCE;
 	width: 20%;
 	float: left;
@@ -43,6 +44,7 @@ ul {
 	list-style-type: none;
 	padding-left: 40px;
 	font-size: 15px;
+	list-style-type:disc;
 }
 li {
 	padding: 5px 0;
