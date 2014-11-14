@@ -3,9 +3,6 @@ html {
 	font-family: 'News Cycle', sans-serif;
 	font-family: 'Montserrat', sans-serif;
 }
-#wrapper {
-	min-height: 100%;
-}
 body {
 	width: 80%;
 	margin-left: auto;
@@ -28,10 +25,10 @@ header table {
 	float: right;
 	padding: 20px;
 }
-table a:link { color: #3E5254; text-decoration: none; }      /* unvisited link */
-table a:visited { color: #3E5254; }  /* visited link */
-table a:hover { color: black; text-decoration: none; }  /* mouse over link */
-table a:active { color: white;}  /* selected link */
+a:link { color: #3E5254; text-decoration: none; }      /* unvisited link */
+a:visited { color: #3E5254; }  /* visited link */
+a:hover { color: black; text-decoration: none; }  /* mouse over link */
+a:active { color: white;}  /* selected link */
 tbody {
 	text-align: center;
 	font-size: 15px;
@@ -43,7 +40,17 @@ td {
 }
 #intro {
 	padding-top: 50px;
-	width: 80%;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#intro a:link { color: white; text-decoration: none; }      /* unvisited link */
+#intro a:visited { color: white; }  /* visited link */
+#intro a:hover { color: #3E5254; text-decoration: none; }  /* mouse over link */
+#intro a:active { color: #3E5254;}  /* selected link */
+#signature {
+	float: right;
+	color: #3E5254;
 }
 footer {
 	position: fixed;
