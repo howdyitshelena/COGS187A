@@ -11,19 +11,20 @@ body {
 header {
 	position: relative;
 	border-bottom: 1px solid white;
+	height: 60px;
 }
 .inline {
 	display: inline-block;
 	margin-top: 0;
 }
 #logo {
-	padding: 20px 10px;
+	padding: 15px 10px;
 	margin: 0;
 	color: white;
 }
 header table {
 	float: right;
-	padding: 20px;
+	padding: 20px 20px 10px 20px;
 }
 a:link { color: #3E5254; text-decoration: none; }      /* unvisited link */
 a:visited { color: #3E5254; }  /* visited link */
@@ -38,16 +39,19 @@ td {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-#intro {
+#main {
 	padding-top: 50px;
-	width: 85%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
-#intro a:link { color: white; text-decoration: none; }      /* unvisited link */
-#intro a:visited { color: white; }  /* visited link */
-#intro a:hover { color: #3E5254; text-decoration: none; }  /* mouse over link */
-#intro a:active { color: #3E5254;}  /* selected link */
+#main embed {
+	width: 100%;
+}
+#main a:link { color: white; text-decoration: none; }      /* unvisited link */
+#main a:visited { color: white; }  /* visited link */
+#main a:hover { color: #3E5254; text-decoration: none; }  /* mouse over link */
+#main a:active { color: #3E5254;}  /* selected link */
 #signature {
 	float: right;
 	color: #3E5254;
