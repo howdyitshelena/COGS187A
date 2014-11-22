@@ -39,21 +39,27 @@ html, body {
 	background-color: #660000;
 	padding-top: 10px;
 	margin-top: -16px;
-	margin-left: 10px;
+	margin-left: 30px;
 	font-size: 14px;
+	height: 25px;
 }
 #top-nav.navbar li a {
 	float: right;
+}
+#top-nav.navbar li {
+	width: 140px;
+}
+#primary-nav.navbar li {
+	width: 190px; /* Each menu item is 190px wide */
 }
 #primary-nav {
 	font-size: 25px;
 	text-transform: uppercase;
 	padding-bottom: 20px;
-	padding-top: 15px;
+	padding-top: 25px;
 }
 .navbar li {
 	height: auto;
-	width: 180px;  /* Each menu item is 150px wide */
 	float: left;  /* This lines up the menu items horizontally */
 	text-align: center;  /* All text is placed in the center of the box */
 	list-style: none;  /* Removes the default styling (bullets) for the list */
@@ -63,6 +69,10 @@ html, body {
 .navbar a {	
 	text-decoration: none;  /* Removes the default hyperlink styling. */
 	display: block;
+	text-align: center;
+}
+#primary-nav.navbar li a:hover {
+	color: #F15D2F;
 }
 #top-nav.navbar a {
 	color: white;
@@ -74,7 +84,7 @@ html, body {
 	display: none;  /* Hides the drop-down menu */
 	height: auto;									
 	margin: 0; /* Aligns drop-down box underneath the menu item */
-	margin-top: 10px;
+	margin-top: 12px;
 	padding: 0; /* Aligns drop-down box underneath the menu item */			
 }				
 .navbar li:hover ul {
@@ -87,14 +97,21 @@ html, body {
 	width: 230px;
 } 
 .navbar li ul li a 	{
-	padding-right: 50px;
+	padding: 8px 10px;
 	color: white;
 	font-size: 18px;
 	text-transform: none;
+	text-align: left;
 }		
 .navbar li ul li a:hover	{
 	background-color: #E7E7E7;
 	color: white;
+}
+#about-drop {
+	margin-left: 35px;
+}
+#about-drop li a {
+	padding-left: 15px;
 }
 #slider1_container {
 	position: relative; 
@@ -208,20 +225,26 @@ html, body {
 	top: 123px; 
 	right: 8px;
 }
+#awards-outer-wrapper {
+	width: 100%;
+	background-color: #F0EDE3;
+}
 #awards-wrapper {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #F0EDE3;
 }
-.award {
+.award,
+.event {
 	width: 33%;
 	display: inline-block;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 }
-.award .award-content  {
+.award .award-content,
+.event .event-content  {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -231,7 +254,8 @@ html, body {
 #award-1 h4,
 #award-3 h1,
 #award-3 h2,
-#award-3 h4 {
+#award-3 h4,
+#event-1 h1 {
 	margin: 0;
 }
 /*#award-2 img.award-content {
@@ -242,8 +266,19 @@ html, body {
 	background: url(../../img/laurel.svg) center no-repeat;
 	height: 130px;
 }
-
-
-
+#events-outer-wrapper {
+	width: 100%;
+}
+#events-wrapper {
+	width: 90%;
+}
+#event-1 h1 {
+	background: url(../../img/cycling.jpg) center no-repeat;
+	height: 200px;
+}
+footer {
+	background-color: #262626;
+	height: 225px;
+}
 
 
