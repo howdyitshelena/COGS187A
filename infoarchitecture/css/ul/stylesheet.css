@@ -268,9 +268,20 @@ html, body {
 }
 #events-outer-wrapper {
 	width: 100%;
+	background-color: #F0EDE3;
 }
 #events-wrapper {
 	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#events-title {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#events-title h1 {
+	margin: 0;
 }
 #event-1 h1 {
 	background: url(../../img/cycling.jpg) center no-repeat;
@@ -279,6 +290,24 @@ html, body {
 footer {
 	background-color: #262626;
 	height: 225px;
+}
+#footer-wrapper {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.footer-block {
+	width: 17%;
+	display: inline-block;
+}
+#footer-block-center {
+	width: 30%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer-block-center img {
+	width: 170px;
 }
 
 
