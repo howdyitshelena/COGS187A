@@ -49,14 +49,58 @@ html, body {
 #top-nav.navbar li {
 	width: 140px;
 }
-#primary-nav.navbar li {
+#searchbox {
+	float: right;
+	margin-right: 50px;
+}
+input [type="submit"] {
+	-webkit-appearance: button;
+}
+#about-li {
 	width: 190px; /* Each menu item is 190px wide */
+}
+#academics-li {
+	width: 210px;
+	margin-left: -35px;
+}
+#research-li {
+	width: 195px;
+	margin-left: -15px;
+}
+#admissions-li {
+	width: 215px;
+	margin-left: -15px;
+}
+#campuslife-li {
+	width: 210px;
+	margin-left: -20px: 
 }
 #primary-nav {
 	font-size: 25px;
 	text-transform: uppercase;
 	padding-bottom: 20px;
 	padding-top: 25px;
+	width: 100%;
+	margin-left: -5px;
+}
+#primary-nav li {
+	line-height: 0.75em;
+}
+#about {
+	background: url(../../img/arrow-down.png) 145px no-repeat;
+}
+#academics {
+	background: url(../../img/arrow-down.png) 188px no-repeat;
+}
+#research {
+	background: url(../../img/arrow-down.png) 170px no-repeat;
+}
+#admissions {
+	background: url(../../img/arrow-down.png) 195px no-repeat;
+}
+#campuslife {
+	background: url(../../img/arrow-down.png) 185px no-repeat;
+	padding-right: 10px;
 }
 .navbar li {
 	height: auto;
@@ -64,7 +108,7 @@ html, body {
 	text-align: center;  /* All text is placed in the center of the box */
 	list-style: none;  /* Removes the default styling (bullets) for the list */
 	padding: 0;
-	margin: 0;
+	/*margin: 0;*/
 }
 .navbar a {	
 	text-decoration: none;  /* Removes the default hyperlink styling. */
@@ -84,7 +128,7 @@ html, body {
 	display: none;  /* Hides the drop-down menu */
 	height: auto;									
 	margin: 0; /* Aligns drop-down box underneath the menu item */
-	margin-top: 12px;
+	margin-top: 24px;
 	padding: 0; /* Aligns drop-down box underneath the menu item */			
 }				
 .navbar li:hover ul {
