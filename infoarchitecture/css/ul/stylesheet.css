@@ -1,8 +1,10 @@
 html, body {
 	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	margin-top: 8px;
 }
 #wrapper {
-	height: 70px;
+	height: 90px;
 	margin: 0;
 	z-index: 99;
 	position: relative;
@@ -13,6 +15,7 @@ html, body {
 	display: inline-block;
 	position: relative;
 	float: left;
+	padding-left: 30px;
 }
 #right-wrapper {
 	width: 75%;
@@ -31,40 +34,92 @@ html, body {
 #primary-nav {
 	position: relative;
 }
+#top-nav {
+	width: 100%;
+	background-color: #660000;
+	padding-top: 10px;
+	margin-top: -16px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#top-nav.navbar li a {
+	float: right;
+}
+#primary-nav {
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
 .navbar li {
 	height: auto;
-	width: 150px;  /* Each menu item is 150px wide */
+	width: 180px;  /* Each menu item is 150px wide */
 	float: left;  /* This lines up the menu items horizontally */
 	text-align: center;  /* All text is placed in the center of the box */
 	list-style: none;  /* Removes the default styling (bullets) for the list */
 	padding: 0;
 	margin: 0;
 }
-.navbar a {							
-	border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
-	border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+.navbar a {	
 	text-decoration: none;  /* Removes the default hyperlink styling. */
 	display: block;
+}
+#top-nav.navbar a {
+	color: white;
+}
+#primary-nav.navbar a {
+	color: #660000;
 }
 .navbar li ul 	{
 	display: none;  /* Hides the drop-down menu */
 	height: auto;									
 	margin: 0; /* Aligns drop-down box underneath the menu item */
+	margin-top: 10px;
 	padding: 0; /* Aligns drop-down box underneath the menu item */			
 }				
-
 .navbar li:hover ul {
     display: block; /* Displays the drop-down box when the menu item is hovered over */
+    padding-right: 50px;
+}
+.navbar li ul li {
+	background-color: white;
+	margin-right: 20px;
+	width: 230px;
+} 
+.navbar li ul li a 	{
+	padding-right: 50px;
+	color: white;
+	font-size: 18px;
+	text-transform: none;
+}		
+.navbar li ul li a:hover	{
+	background-color: #E7E7E7;
+	color: white;
+}
+#slider1_container {
+	position: relative; 
+	margin: 0 auto;
+    top: 0px; 
+    left: 0px; 
+    width: 1300px; 
+    height: 400px; 
+    overflow: hidden;
 }
 #slides-container {
-	height: 100px;
+	cursor: move; 
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	width: 1300px;
+	height: 400px; 
+	overflow: hidden;
 }
 .gallery-title {
 	position: absolute; 
 	width: 480px; 
 	height: 120px; 
 	top: 30px; 
-	left: 30px; 
+	right: -90px; 
 	padding: 5px;
 	text-align: left; 
 	line-height: 60px; 
@@ -153,5 +208,42 @@ html, body {
 	top: 123px; 
 	right: 8px;
 }
+#awards-wrapper {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F0EDE3;
+}
+.award {
+	width: 33%;
+	display: inline-block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.award .award-content  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#award-1 h1,
+#award-1 h4,
+#award-3 h1,
+#award-3 h2,
+#award-3 h4 {
+	margin: 0;
+}
+/*#award-2 img.award-content {
+	margin-top: 20px;
+	width: 250px;
+}*/
+#award-2 h2 {
+	background: url(../../img/laurel.svg) center no-repeat;
+	height: 130px;
+}
+
+
+
 
 
