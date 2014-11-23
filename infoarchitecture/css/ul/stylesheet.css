@@ -4,7 +4,7 @@ html, body {
 	margin-top: 8px;
 }
 #wrapper {
-	height: 90px;
+	height: 100px;
 	margin: 0;
 	z-index: 99;
 	position: relative;
@@ -21,7 +21,7 @@ html, body {
 	width: 75%;
 	position: relative;
 	float: right;
-	height: 70px;
+	height: 100px;
 }
 .navbar {
 	display: inline-block;
@@ -33,6 +33,7 @@ html, body {
 #top-nav,
 #primary-nav {
 	position: relative;
+	font-family: 'Quattrocento Sans';
 }
 #top-nav {
 	width: 100%;
@@ -40,14 +41,16 @@ html, body {
 	padding-top: 10px;
 	margin-top: -16px;
 	margin-left: 30px;
-	font-size: 14px;
-	height: 25px;
+	font-family: 'Quattrocento Sans';
+	font-size: 18px;
+	height: 37px;
 }
 #top-nav.navbar li a {
 	float: right;
 }
 #top-nav.navbar li {
 	width: 140px;
+	margin-top: 5px;
 }
 #searchbox {
 	float: right;
@@ -108,7 +111,6 @@ input [type="submit"] {
 	text-align: center;  /* All text is placed in the center of the box */
 	list-style: none;  /* Removes the default styling (bullets) for the list */
 	padding: 0;
-	/*margin: 0;*/
 }
 .navbar a {	
 	text-decoration: none;  /* Removes the default hyperlink styling. */
@@ -128,7 +130,7 @@ input [type="submit"] {
 	display: none;  /* Hides the drop-down menu */
 	height: auto;									
 	margin: 0; /* Aligns drop-down box underneath the menu item */
-	margin-top: 24px;
+	margin-top: 22px;
 	padding: 0; /* Aligns drop-down box underneath the menu item */			
 }				
 .navbar li:hover ul {
@@ -334,6 +336,10 @@ input [type="submit"] {
 footer {
 	background-color: #262626;
 	height: 225px;
+	color: gray;
+}
+footer ul {
+	list-style: none;
 }
 #footer-wrapper {
 	width: 85%;
