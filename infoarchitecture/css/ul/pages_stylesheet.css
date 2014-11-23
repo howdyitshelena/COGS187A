@@ -1,3 +1,8 @@
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4;
+}
 #banner-outer-wrapper {
 	width: 100%;
 	height: 170px;
@@ -74,7 +79,42 @@
 	display: inline-block;
 }
 #right-col {
-	width: 24%;
+	width: 30%;
 	height: 100%;
 	display: inline-block;
+	position: absolute;
+	margin-left: 40px;
 }
+.postcard-left {
+	clear: both;
+	display: table;
+	margin-bottom: 15px;
+	position: relative;
+}
+.postcard-left>div {
+	display: table-cell;
+	position: relative;
+}
+.postcard-image {
+	width: 190px;
+}
+.postcard-left .postcard-image img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.postcard-left .postcard-text {
+	vertical-align: top;
+	padding-left: 20px;
+}
+.postcard-left .postcard-text h2 {
+	margin: 0;
+}
+.postcard-left .postcard-text p {
+	margin: 6px;
+	font-size: 1.0em;
+}
+
+
+
+
