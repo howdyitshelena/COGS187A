@@ -2,7 +2,6 @@ p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.4;
-	font-weight: 200;
 }
 #banner-outer-wrapper {
 	width: 100%;
@@ -114,7 +113,6 @@ p {
 .postcard-left .postcard-text p {
 	margin: 6px;
 	font-size: 1.0em;
-	font-weight: 400;
 }
 
 
