@@ -1,7 +1,6 @@
 html, body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
-	margin-top: 8px;
 }
 #wrapper {
 	height: 100px;
@@ -16,6 +15,7 @@ html, body {
 	position: relative;
 	float: left;
 	padding-left: 30px;
+	padding-top: 17px;
 }
 #right-wrapper {
 	width: 75%;
@@ -37,30 +37,34 @@ html, body {
 }
 #top-nav {
 	width: 100%;
-	background-color: #660000;
+	background-color: white;
 	padding-top: 10px;
-	margin-top: -16px;
-	margin-left: 30px;
+	margin-top: 9px;
+	margin-left: 36%;
 	font-family: 'Quattrocento Sans';
 	font-size: 18px;
-	height: 37px;
+	padding-left: 5px;
 }
 #top-nav.navbar li a {
 	float: right;
 }
 #top-nav.navbar li {
-	width: 140px;
-	margin-top: 5px;
+	padding-right: 20px;
 }
-#searchbox {
-	float: right;
-	margin-right: 50px;
+#submit {
+	background: transparent;
+	border: 1px solid lightgray;
+	padding-bottom: 2px;
+	margin-left: -2px;
 }
-input [type="submit"] {
-	-webkit-appearance: button;
+input [type="text"] {
+	border: 1px solid gray;
+}
+#submit {
+	background: url(../../img/search.png) no-repeat;
 }
 #about-li {
-	width: 190px; /* Each menu item is 190px wide */
+	width: 150px; /* Each menu item is 190px wide */
 }
 #academics-li {
 	width: 210px;
@@ -82,15 +86,14 @@ input [type="submit"] {
 	font-size: 25px;
 	text-transform: uppercase;
 	padding-bottom: 20px;
-	padding-top: 25px;
+	padding-top: 13px;
 	width: 100%;
-	margin-left: -5px;
 }
 #primary-nav li {
 	line-height: 0.75em;
 }
 #about {
-	background: url(../../img/arrow-down.png) 145px no-repeat;
+	background: url(../../img/arrow-down.png) 120px no-repeat;
 }
 #academics {
 	background: url(../../img/arrow-down.png) 188px no-repeat;
@@ -120,9 +123,7 @@ input [type="submit"] {
 #primary-nav.navbar li a:hover {
 	color: #F15D2F;
 }
-#top-nav.navbar a {
-	color: white;
-}
+#top-nav.navbar a,
 #primary-nav.navbar a {
 	color: #660000;
 }
@@ -130,7 +131,7 @@ input [type="submit"] {
 	display: none;  /* Hides the drop-down menu */
 	height: auto;									
 	margin: 0; /* Aligns drop-down box underneath the menu item */
-	margin-top: 22px;
+	margin-top: 15px;
 	padding: 0; /* Aligns drop-down box underneath the menu item */			
 }				
 .navbar li:hover ul {
