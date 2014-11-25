@@ -65,6 +65,7 @@ input [type="text"] {
 }
 #about-li {
 	width: 150px; /* Each menu item is 190px wide */
+	padding-right: 20px;
 }
 #academics-li {
 	width: 210px;
@@ -93,7 +94,7 @@ input [type="text"] {
 	line-height: 0.75em;
 }
 #about {
-	background: url(../../img/arrow-down.png) 120px no-repeat;
+	background: url(../../img/arrow-down.png) 127px no-repeat;
 }
 #academics {
 	background: url(../../img/arrow-down.png) 188px no-repeat;
@@ -132,7 +133,8 @@ input [type="text"] {
 	height: auto;									
 	margin: 0; /* Aligns drop-down box underneath the menu item */
 	margin-top: 15px;
-	padding: 0; /* Aligns drop-down box underneath the menu item */			
+	padding: 0; /* Aligns drop-down box underneath the menu item */		
+	margin-left: 35px;	
 }				
 .navbar li:hover ul {
     display: block; /* Displays the drop-down box when the menu item is hovered over */
@@ -160,12 +162,15 @@ input [type="text"] {
 #about-drop li a {
 	padding-left: 15px;
 }
+#campuslife-li ul {
+	margin-left: 25px;
+}
 #slider1_container {
 	position: relative; 
 	margin: 0 auto;
     top: 0px; 
     left: 0px; 
-    width: 1300px; 
+    width: 100%; 
     height: 400px; 
     overflow: hidden;
 }
@@ -174,7 +179,7 @@ input [type="text"] {
 	position: absolute; 
 	left: 0px; 
 	top: 0px; 
-	width: 1300px;
+	width: 100%;
 	height: 400px; 
 	overflow: hidden;
 }
@@ -277,20 +282,23 @@ input [type="text"] {
 #awards-outer-wrapper {
 	width: 100%;
 	background-color: #F0EDE3;
+	height: 190px;
 }
 #awards-wrapper {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #F0EDE3;
+	position: relative;
+	height: 100%;
 }
 .award,
 .event {
 	width: 33%;
 	display: inline-block;
-	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+	height: 165px;
 }
 .award .award-content,
 .event .event-content  {
@@ -307,14 +315,26 @@ input [type="text"] {
 #event-1 h1 {
 	margin: 0;
 }
+#award-1 {
+	margin-top: 55px;
+}
+#award-2 {
+	position: absolute;
+	top: -35px;
+}
 #award-2 h2 {
 	background: url(../../img/laurel.svg) center no-repeat;
 	height: 130px;
-	padding-top: 167px;
+	padding-top: 85px;
+}
+#award-3 {
+	float: right;
+	padding-top: 35px;
 }
 #events-outer-wrapper {
 	width: 100%;
 	background-color: #F0EDE3;
+	padding-bottom: 75px;
 }
 #events-wrapper {
 	width: 90%;
@@ -337,12 +357,17 @@ input [type="text"] {
 	display: block;
 	bottom: 13px;
 }
+#events-title::after {
+	right: -340px;
+}
 #events-title {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	padding-top: 10px;
 }
 #events-title h1 {
+	display: inline-block;
 	margin: 0;
 	color: #85754d;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
