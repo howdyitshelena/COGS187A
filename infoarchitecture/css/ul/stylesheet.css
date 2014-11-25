@@ -405,19 +405,52 @@ footer ul {
 	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
+	padding-top: 40px;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 .footer-block {
 	width: 17%;
 	display: inline-block;
+}
+.footer-block:first-child ul,
+.footer-block:nth-child(2) ul {
+	text-align: right;
+	border-right: 1px solid #000;
+	padding-right: 8px;
+}
+.footer-block:nth-child(4) ul,
+.footer-block:nth-child(5) ul {
+	text-align: left;
+	border-left: 1px solid #000;
+	padding-left: 8px;
 }
 #footer-block-center {
 	width: 30%;
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 #footer-block-center img {
 	width: 170px;
+}
+#footer-block-center ul {
+	list-style-position: inside;
+}
+#footer-block-center ul li {
+	list-style: none;
+	display: inline-block;
+}
+#footer-block-center ul li a {
+	color: #fff;
+	text-indent: -9999px;
+	overflow: hidden;
+	display: inline-block;
+	background: url(assets/svg/uw-sprite.svg) no-repeat 0 -185px transparent;
+	padding: 8px 21px;
+}
+#footer-block-center ul li a.facebook {
+	background-position: 0 -185px;
 }
 
 
