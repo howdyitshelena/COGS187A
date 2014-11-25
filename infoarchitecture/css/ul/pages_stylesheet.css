@@ -3,6 +3,7 @@ p {
 	font-size: 1.2em;
 	line-height: 1.4;
 }
+
 #exception{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.0em;
@@ -84,7 +85,7 @@ p {
 	display: inline-block;
 }
 #right-col {
-	width: 30%;
+	width: 400px;
 	height: 100%;
 	display: inline-block;
 	position: absolute;
