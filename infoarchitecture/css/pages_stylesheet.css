@@ -77,6 +77,9 @@ li.current-page a {
 #main img.half-of-page {
 	width: 49%;
 }
+#redesign-structure p{
+	margin: 0;
+}
 footer {
 	position: fixed;
 	bottom: 0;
