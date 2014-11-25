@@ -5,12 +5,30 @@
     	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
     	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link href="css/ul/stylesheet.css" rel="stylesheet"/>
     	<link href="css/ul/pages_stylesheet.css" rel="stylesheet"/>
 		<meta charset="UTF-8">
 		<title>University of Leicester - Campus Life</title>
 	</head>
-	<body>		
+	<body>
+		<!-- Slider Menu Begin -->
+		<header>
+			<nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top" id="menu">
+				<a href="index.html"><h2 class="inline" id="logo">a&amp;d&amp;h</h2></a>
+				<table class="inline">
+					<tr>
+						<td><a href="userpersonas.html">User Personas</a></td>
+						<td><a href="companalysis.html">Competitive Analysis</a></td>
+						<td><a href="decisions.html">Hardest Decisions</a></td>
+						<td><a href="redesignconcept.html">Redesign Concept</a></td>
+					</tr>
+				</table>
+			</nav>	
+		</header>	
+		<!-- Slider Menu End -->
+
+		<button id="showTop">a&amp;d&amp;h</button>		
 
 		<!-- Top and Primary Navigation Begin -->
 		<div id="wrapper">
@@ -151,6 +169,18 @@
 	    <script type="text/javascript" src="js/jssor.js"></script>
 	    <script type="text/javascript" src="js/jssor.slider.js"></script>
 	    <script type="text/javascript" src="js/script.js"></script>
+		<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuTop = document.getElementById( 'menu' ),
+				showTop = document.getElementById( 'showTop' )
+				body = document.body;
+
+			showTop.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( menuTop, 'cbp-spmenu-open' );
+			};
+		</script>
 
 		<footer>
 			<div id="footer-wrapper">
