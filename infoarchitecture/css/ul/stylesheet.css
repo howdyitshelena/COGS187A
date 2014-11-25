@@ -7,6 +7,7 @@ html, body {
 }
 #showTop {
 	background: url(../../img/menu.png) no-repeat;
+	background-color: white;
 	text-indent: 39px;
 	height: 40px;
 	font-size: 20px;
