@@ -2,6 +2,20 @@ html, body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
+#menu a{
+	text-decoration: none;
+}
+#showTop {
+	background: url(../../img/menu.png) no-repeat;
+	text-indent: 39px;
+	height: 40px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #9DCDCE;
+	z-index: 99999;
+	position: fixed;
+	top: 50%;
+}
 #wrapper {
 	height: 100px;
 	margin: 0;
