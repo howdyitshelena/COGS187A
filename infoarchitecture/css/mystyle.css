@@ -1,4 +1,4 @@
-#more1 {
+#more0 {
 	text-align: right;
 	padding: 0px 0px 0px 0px;
 }
@@ -12,21 +12,17 @@
 }
 a:link {
 	color: #660000;
-	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 }
 a:visited {
 	color: #660000;
-	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 }
 a:hover {
 	color: #000000;
-	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 }
 a:active{
 	color: #660000;
-	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 }
